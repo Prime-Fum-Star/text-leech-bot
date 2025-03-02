@@ -6,15 +6,15 @@ services:
     dockerfilePath: Dockerfile
     repo: https://github.com/AshutoshGoswami24/text-leech-bot-for-render
     branch: main
-    autoDeploy: true
+    autoDeploy: false
     envVars:
       - key: BOT_TOKEN
-        sync: true
+        sync: false
       - key: API_ID
-        sync: true
+        sync: false
       - key: API_HASH
-        sync: true
+        sync: false
       - key: WEBHOOK
-        sync: true
+        sync: false
       - key: PORT
-        sync: true  # Default port value, update if needed
+        value: 8000  # Default port value, update if needed
