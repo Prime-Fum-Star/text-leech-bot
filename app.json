@@ -7,28 +7,28 @@
         "video-extract",
         "pyrogram"
     ],
-    "repository": "https://github.com/AshutoshGoswami24/text-leech-bot",
-    "success_url": "https://t.me/AshutoshGoswami24",
+    "repository": "https://github.com/SudoR2spr/txt-leech-bot",
+    "success_url": "https://t.me/Opleech_WD",
     "stack": "heroku-22",
     "env": {
         "API_ID": {
-            "description": "25645046",
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
             "required": true
         },
         "API_HASH": {
-            "description": "568c366b5573c5c349f0f0f25c3a4ccd",
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "8177990799:AAGFyMi4DQ3Sc41GVqKt8-3XY-E2iinWuH8",
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
             "required": true
         },
         "OWNER_ID": {
-            "description": "6676704302",
+            "description": "𝑼𝒔𝒆𝒓 𝑰𝑫 𝑶𝒇 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "6676704302",
+            "description": "𝑺𝒖𝒅𝒐 𝑰𝑫'𝒔 (𝒀𝒐𝒖 𝑪𝒂𝒏 𝑨𝒅𝒅 𝑴𝒖𝒍𝒕𝒊𝒑𝒍𝒆 𝑩𝒚 𝑮𝒊𝒗𝒊𝒏𝒈 𝑺𝒑𝒂𝒄𝒆)",
             "required": true
         }
     },
@@ -38,7 +38,7 @@
             "url": "heroku/python"
         },
         {
-            "url": "https://github.com/AshutoshGoswami24/Ashutosh-Goswami-heroku-buildpack-ffmpeg-latest.git"
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
         }
     ]
-    }
+}
